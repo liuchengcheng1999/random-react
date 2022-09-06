@@ -1,4 +1,4 @@
-import * as renderer from 'react-test-renderer'
+import renderer from 'react-test-renderer'
 import React from 'react'
 import Button from '../button'
 
