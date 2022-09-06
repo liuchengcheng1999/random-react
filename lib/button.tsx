@@ -1,8 +1,8 @@
 import React from 'react';
-function Button() {
+function Button () {
     return (
-        <div>button2</div>
+        <div>button</div>
     )
 }
 
-export default Button
+export default Button;
