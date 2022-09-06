@@ -1,5 +1,8 @@
 import React from 'react';
-function Icon() {
+interface IconProps {
+    name: string;
+}
+const Icon: React.FunctionComponent<IconProps> = (props) => {
     return (
         <span>icon</span>
     )
