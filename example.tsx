@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { HashRouter as Router, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import IconExample from './lib/icon/icon.example';
 import ButtonExample from './lib/button.example';
 
@@ -25,8 +25,10 @@ ReactDOM.render(
           </ul>
         </aside>
         <main>
-          <Route path="/icon" element={<IconExample />}/>
-          <Route path="/button" element={<ButtonExample />}/>
+          <Routes>
+            <Route path="/icon" element={<IconExample />}/>
+            <Route path="/button" element={<ButtonExample />}/>
+          </Routes>
         </main> 
       </div>
     </div>
