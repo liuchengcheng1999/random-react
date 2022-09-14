@@ -5,6 +5,7 @@ module.exports = Object.assign({}, base, {
     entry: {
         example: './example.tsx',
     },
+    stats: { children: false },
     plugins: [
         new HtmlWebpackPlugin({
             template: 'example.html'
