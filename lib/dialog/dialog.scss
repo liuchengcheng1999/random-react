@@ -2,8 +2,7 @@
 .random-react-dialog {
     position: fixed;
     background: white;
-    height: 10em;
-    width: 200px;
+    min-width: 300px;
     border-radius: 4px;
     top: 50%;
     left: 50%;
@@ -17,9 +16,20 @@
         background: fade-out($color: black, $amount: 0.5);
     }
     &-header {
+        font-size: 22px;
+        padding: 8px 16px;
+        border-bottom: 1px solid grey;
     }
-    &-main {}
-    &-footer {}
+    &-main {
+        padding: 8px 16px;
+        min-height: 6em;
+    }
+    &-footer {
+        padding: 8px 16px;
+        border-top: 1px solid grey;
+        display: flex;
+        justify-content: end;
+    }
     &-close {
         position: absolute;
         bottom: 100%;
@@ -32,5 +42,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        color: white;
     }
 }
