@@ -1,4 +1,5 @@
 const path = require('path')
+const title = 'Random UI'
 module.exports = {
   entry: {
     index: './lib/index.tsx'
@@ -24,6 +25,12 @@ module.exports = {
       {
         test: /\.scss$/,
         use: ['style-loader', 'css-loader', 'sass-loader']
+      },
+      {
+        test: /\.(png|jpg|jpeg|gif)$/,
+        use: [
+          'file-loader'
+        ]
       }
     ]
   },

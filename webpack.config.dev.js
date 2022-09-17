@@ -1,5 +1,6 @@
 const base = require('./webpack.config')
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const webpackConfig = require('./webpack.config');
 module.exports = Object.assign({}, base, {
     mode: 'development',
     entry: {
@@ -8,7 +9,8 @@ module.exports = Object.assign({}, base, {
     stats: { children: false },
     plugins: [
         new HtmlWebpackPlugin({
-            template: 'example.html'
+            template: 'example.html',
+            favicon: './lib/imgs/favicon.ico'
         })
     ],
 })
