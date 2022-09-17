@@ -9,7 +9,7 @@ ReactDOM.render(
     <div>
       <header>
         <div>
-          FUI
+          Random UI
         </div>
       </header>
       <div>

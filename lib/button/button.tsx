@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
+import './button.scss';
 const Button = () => {
+    const [x, setX] = useState(false);
     return (
-        <div>button</div>
+        <div>
+            <button className="random-react-button" onClick={() => setX(!x)}>click</button>
+        </div>
     )
 }
 
