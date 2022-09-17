@@ -44,7 +44,7 @@ export default function() {
       </div>
 
 
-      <div style={{position: 'relative', zIndex: 9}}>
+      <div style={{position: 'relative'}}>
         <h1>example 2</h1>
         <button onClick={() => setY(!y)}>click</button>
         <Dialog visible={y} closeOnClickMask={true} buttons={
