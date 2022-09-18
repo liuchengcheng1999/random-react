@@ -18,6 +18,7 @@
 </p>
 
 ## 文档
+[文档](https://liuchengcheng1999.github.io/random-react/doc/index.html)
 
 ## 本地安装 && 使用
 ```jsx
