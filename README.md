@@ -3,7 +3,7 @@
 <p align="center">
     <img alt="logo" src="./logo.png" width="300" height="300">
 </p>
-<p align="center">从零打造一套企业级react 组件库生态</p>
+<p align="center">个人搭建的React组件库</p>
 
 <p align="center">
   <a href="https://github.com/liuchengcheng1999/random-react">
@@ -38,8 +38,9 @@ $ yarn build
 
 ### 通用
 - Icon 图标 ✅ 
-- Button 按钮 ⭐️ 
+- Dialog 弹窗 ⭐️
 - Layout 布局 ⭐️
+- Button 按钮 ❌
 
 ## LICENSE
 [GPL-3.0](https://zh.wikipedia.org/wiki/GNU_General_Public_License)
