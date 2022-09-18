@@ -7,7 +7,7 @@ export default function() {
   const openModal = () => {
     const close = modal(
     <h1>
-        你好
+        hello
       <button onClick={() => close()}>close</button>
     </h1>
     );
