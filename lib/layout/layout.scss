@@ -1,5 +1,5 @@
 @import "../helpers/helper.scss";
-.gu-layout {
+.random-react-layout {
   display: flex;
   flex-direction: column;
   &-content {
@@ -11,7 +11,7 @@
   }
   &-hasAside {
     flex-direction: row;
-    .gu-layout {
+    .random-react-layout {
       flex-direction: column;
     }
   }

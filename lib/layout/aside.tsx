@@ -4,7 +4,7 @@ import {scopedClassMaker} from '../helpers/classmaker';
 interface Props extends React.HTMLAttributes<HTMLElement> {
 }
 
-const sc = scopedClassMaker('gu-layout');
+const sc = scopedClassMaker('random-react-layout');
 const Aside: React.FunctionComponent<Props> = (props) => {
   const {className, ...rest} = props;
   return (

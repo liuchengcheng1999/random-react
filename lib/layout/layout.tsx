@@ -3,7 +3,7 @@ import './layout.scss';
 import Aside from './aside';
 import {scopedClassMaker} from '../helpers/classmaker';
 
-const sc = scopedClassMaker('gu-layout');
+const sc = scopedClassMaker('random-react-layout');
 
 interface Props extends React.HTMLAttributes<HTMLElement> {
   children: ReactElement | Array<ReactElement>
